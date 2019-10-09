@@ -1,21 +1,23 @@
 # Header
-navname: Bentham's Blog
+navname: EgoSay's Blog
 
 # navigatior items
 nav:
   Posts: /archives
-  Categories: /category
-  Tags: /tag
+  Categories: /categories
+  Tags: /tags
   About: /about
+  Reading: /reading
 
 # favicon
 favicon: /favicon.ico
 
 # Profile
-nickname: Jeremy Bentham
+nickname: EgoSay
 
 ### this variable is MarkDown form.
-description: Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** <br>Fusce eget urna vitae velit *eleifend interdum at ac* nisi.
+#description: Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** <br>Fusce eget urna vitae velit *eleifend interdum at ac* nisi.
+description: Viewing the footprints will reveal that life is beautiful because of the passing of reality<br>检视足迹会发现生命因踏实走过而丰美
 avatar: /image/avatar.jpeg
 
 # main menu navigation
@@ -24,8 +26,8 @@ avatar: /image/avatar.jpeg
 ## Unused key can be commented out.
 links:
   Blog: /archives
-#  Category:
-#  Tags: 
+  Category: /categories
+  Tags: /tags 
 #  Link:
 #  Resume:
 #  Publish:
@@ -33,7 +35,7 @@ links:
 #  Gallary:
 #  RSS:
 #  AliPay:
-  ZhiHu: https://www.zhihu.com/people/sirice
+#  ZhiHu: https://www.zhihu.com/people/sirice
 #  LinkedIn:
 #  FaceBook:
 #  Twitter:
@@ -49,7 +51,7 @@ links:
 #  QQ:
 #  Weibo:
 #  WeChat:
-  Github: https://github.com/Siricee
+  Github: https://github.com/EgoSay
 
 # how links show: you have 2 choice--text or icon.
 links_text_enable: false
@@ -69,7 +71,7 @@ post_copyright_author_enable: true
 post_copyright_permalink_enable: true
 post_copyright_license_enable: true
 post_copyright_license_text: Copyright (c) 2019 <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC-4.0</a> LICENSE
-post_copyright_slogan_enable: true
+post_copyright_slogan_enable: False
 post_copyright_slogan_text: Do you believe in <strong>DESTINY<strong>?
 ## toc
 post_toc_enable: true
