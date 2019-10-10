@@ -35,7 +35,7 @@ how to add a category page:
                             <a href="<%- url_for(category_item.path) %>">
                                 <h3>
                                     <i class="iconfont icon-category" style="padding-right:3px"></i>
-                                    <%- category_item.name %>
+                                    <%- category_item.name %><small>(<%- category_item.length%>)</small>
                                 </h3>
                             </a>
                             <% category_item.posts.forEach((post_item, index = 0)=>{ %>

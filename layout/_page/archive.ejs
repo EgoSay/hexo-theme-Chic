@@ -2,7 +2,6 @@
     <% var last_year = ''; %>
     <% page.posts.each(function (post) { %>
         <% var cur_year = post.date.year(); %>
-
         <% if(last_year !== cur_year){ %>
             <h3><%- cur_year %></h3>
         <% last_year = cur_year; } %>
